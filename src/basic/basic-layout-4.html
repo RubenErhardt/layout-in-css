@@ -10,33 +10,28 @@
       display: grid;
       grid-gap:10px;
 grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
   "main  main header header" 
+  "main  main header header" 
+  "footer  footer nav nav"
   "footer  footer nav nav";
 }
 
 main{
   grid-area: main;
-  height:80vh;
-  width: 500px;
 }
 header{
   grid-area: header;
-  height:80hv;
-  width: 250px;
 }
 
 nav{
   grid-area: nav;
-  height: 80vh;
-  width: 250px;
 }
 
 footer{
   grid-area: footer;
-  height:80vh;
-  width: 500px;
+
 }
     </style>
   </head>
